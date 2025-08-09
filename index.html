@@ -952,6 +952,39 @@
             font-size: 0.9rem;
         }
 
+        /* ...existing code... */
+        .external-section {
+            padding: var(--section-padding) 0;
+            background: #fff;
+            text-align: center;
+        }
+
+        .external-section .section-title {
+            margin-bottom: 1.5rem;
+        }
+
+        .external-section p {
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .external-btn {
+            min-width: 220px;
+            font-size: 1.1rem;
+            background: var(--accent);
+            color: var(--light-text);
+            border-radius: 30px;
+            transition: var(--transition);
+        }
+
+        .external-btn:hover {
+            background: var(--dark-accent);
+            color: #fff;
+        }
+
+        /* ...existing code... */
+
         /* Responsividade */
         @media (max-width: 992px) {
             .section-title {
@@ -1154,6 +1187,26 @@
                 </div>
                 <a href="#portfolio" class="btn">Ver Portfólio</a>
             </div>
+        </div>
+    </section>
+
+    <!-- Galeria Online -->
+    <section class="external-section galeria-section">
+        <div class="container">
+            <h2 class="section-title">Galeria <span class="text-accent">Online</span></h2>
+            <p>Veja todas as fotos e trabalhos diretamente na nossa plataforma exclusiva.</p>
+            <a href="https://joao-fotografo.onrender.com" class="btn external-btn" target="_blank"
+                rel="noopener">Acessar Galeria</a>
+        </div>
+    </section>
+
+    <!-- Entrega de Trabalhos -->
+    <section class="external-section entrega-section">
+        <div class="container">
+            <h2 class="section-title">Entrega de <span class="text-accent">Trabalhos</span></h2>
+            <p>Receba seus arquivos e acompanhe o status das suas entregas de forma prática e segura.</p>
+            <a href="https://pagina-de-entrega.onrender.com" class="btn external-btn" target="_blank"
+                rel="noopener">Acessar Entregas</a>
         </div>
     </section>
 
